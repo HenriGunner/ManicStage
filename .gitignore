@@ -1,38 +1,12 @@
 ```
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-env/
-venv/
-.venv/
-.ENV
-.ENV.*
-.python-version
+# Compressed files
+*.tar.gz
 
-# Build artifacts
-build/
-dist/
-*.egg-info/
-
-# Logs
-*.log
-
-# OS generated files
+# System files
 .DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
 Thumbs.db
 
-# Editor specific
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
+# Logs and temp files
+*.log
+*.tmp
 ```
