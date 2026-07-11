@@ -1,0 +1,56 @@
+# Sony Walkman Repair Tool - Installation Instructions
+
+## 🎯 What This Does
+This tool fixes the "Sony database parse failed" error on your NW-S715F Walkman **without erasing your music**. It only repairs the corrupted database files while keeping all your songs intact.
+
+## 📦 What You Have
+You have `Sony_Walkman_Repair_MacOS.tar.gz` - this contains the complete Mac app.
+
+## 🔧 How to Install (3 Simple Steps)
+
+### Step 1: Extract the App
+1. Double-click `Sony_Walkman_Repair_MacOS.tar.gz` 
+2. This will create a folder called "Sony Walkman Repair.app"
+
+### Step 2: Move to Applications
+1. Drag "Sony Walkman Repair.app" to your **Applications** folder
+2. Or keep it on your Desktop - whichever you prefer
+
+### Step 3: Run the App
+1. Connect your Sony Walkman via USB cable
+2. Double-click "Sony Walkman Repair.app"
+3. Click the **"Start Repair"** button
+4. Wait ~5 seconds for it to complete
+5. Done! Your Walkman is fixed, no music lost!
+
+## ⚠️ First Time Running on Mac
+If Mac says "App can't be opened because developer cannot be verified":
+1. Go to **System Preferences** → **Security & Privacy**
+2. Click **"Open Anyway"** button
+3. The app will now work normally
+
+## ✅ Why It's Safe
+- Only touches database files (.DAT), never your music files
+- Creates automatic backups before any changes
+- Uses the same template files as Sony's official ManicStage software
+- Won't run unless it detects your actual Sony Walkman
+- Same repair logic as "Initialize" but surgical instead of erasing everything
+
+## 🆚 vs ManicStage's "Initialize"
+| Feature | This Tool | ManicStage Initialize |
+|---------|-----------|----------------------|
+| Time | 5 seconds | 5+ minutes |
+| Music Lost? | ❌ No | ✅ Yes (all erased) |
+| Re-import needed? | ❌ No | ✅ Yes |
+| Playlists kept? | ✅ Yes | ❌ No |
+
+## 🆘 If Something Goes Wrong
+The app creates backups in a folder called `backup_[timestamp]` on your Walkman. If anything weird happens, just copy those backup files back to replace the repaired ones.
+
+## 💡 When to Use
+Use this tool whenever you see:
+- "Sony database parse failed" error
+- "Initialization is recommended" message
+- ManicStage can't read your Walkman's library
+
+No need to re-import music anymore! Just run this tool and you're good to go. 🎵
