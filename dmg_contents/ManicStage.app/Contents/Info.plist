@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>zh_CN</string>
+	<key>CFBundleDisplayName</key>
+	<string>ManicStage</string>
+	<key>CFBundleExecutable</key>
+	<string>ManicStage</string>
+	<key>CFBundleIconFile</key>
+	<string>ManicStage</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.whiteskyline.ManicStage</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>ManicStage</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.1.4</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.music</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>14.0</string>
+	<key>NSDocumentsFolderUsageDescription</key>
+	<string>ManicStage 需要读取你选择导入的音乐文件。</string>
+	<key>NSDownloadsFolderUsageDescription</key>
+	<string>ManicStage 需要读取你选择导入的音乐文件。</string>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+	<key>NSMusicUsageDescription</key>
+	<string>ManicStage 需要读取你选择导入的音乐文件。</string>
+	<key>NSRemovableVolumesUsageDescription</key>
+	<string>ManicStage 需要读写 Sony Walkman 可移动磁盘，以读取曲库、初始化空库并同步歌曲。</string>
+	<key>NSSupportsAutomaticGraphicsSwitching</key>
+	<true/>
+</dict>
+</plist>

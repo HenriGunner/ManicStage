@@ -1,0 +1,47 @@
+{
+  "donations": [
+    {
+      "title": "Zhifubao / 支付宝",
+      "resource": "alipay_payment_card",
+      "extension": "PNG"
+    },
+    {
+      "title": "PayPal",
+      "resource": "paypal_payment_card",
+      "extension": "PNG"
+    }
+  ],
+  "contacts": [
+    {
+      "label": "Email",
+      "value": "ming.horizon@icloud.com",
+      "url": "mailto:ming.horizon@icloud.com"
+    },
+    {
+      "label": "GitHub",
+      "value": "whiteskyline/ManicStage",
+      "url": "https://github.com/whiteskyline/ManicStage"
+    },
+    {
+      "label": "YouTube",
+      "value": "@ZaichuanLin",
+      "url": "https://www.youtube.com/@ZaichuanLin"
+    },
+    {
+      "label": "Xiaohongshu / 小红书",
+      "value": "GoodDog",
+      "url": "https://www.xiaohongshu.com/user/profile/5bef04fc96d5be00014890f3"
+    },
+    {
+      "label": "Reddit",
+      "value": "u/HorizonDog777",
+      "url": "https://www.reddit.com/user/HorizonDog777/"
+    }
+  ],
+  "wechat": {
+    "label": "WeChat / 微信",
+    "value": "HorizonDog",
+    "resource": "wechat_qr",
+    "extension": "JPG"
+  }
+}
